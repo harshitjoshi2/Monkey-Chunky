@@ -47,7 +47,7 @@ export default class PhonicSoundButton extends React.Component {
 
 const styles = StyleSheet.create({
   displayText: {
-    textAlign: 'center',
+    textAlign: 'left',
     fontSize: 30,
     color: 'white'
   },
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     alignSelf: 'center',
-    borderRadius: 10,
+    borderRadius: 20,
     margin: 5,
     backgroundColor: 'red'
   }
